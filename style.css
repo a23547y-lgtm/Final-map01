@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+}
+
+#container{
+    display:flex;
+    height:100vh;
+}
+
+#map{
+    flex:3;
+}
+
+#sidebar{
+    flex:1;
+    overflow-y:auto;
+    padding:15px;
+    border-left:1px solid #ccc;
+}
+
+.rank-item{
+    padding:10px;
+    margin:5px 0;
+    border-radius:8px;
+    cursor:pointer;
+    color:white;
+    font-weight:bold;
+}
+
+.rank1{
+    background:gold;
+    color:black;
+}
+
+.rank2{
+    background:silver;
+    color:black;
+}
+
+.rank3{
+    background:#cd7f32;
+}
+
+.rankNormal{
+    background:#2b7cff;
+}
+
+.recommend{
+    background:#28a745 !important;
+}
+
+#prefInfo{
+    margin-top:15px;
+    line-height:1.8;
+}
